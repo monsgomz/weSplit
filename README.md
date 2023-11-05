@@ -18,11 +18,9 @@ WeSplit is a SwiftUI application that helps you quickly calculate the amount of 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
-## Tech Stack
-
-- Xcode 13 or higher.
-- Basic knowledge of SwiftUI and Swift.
-
+## Technologies
+- 💻 Swift
+- 🖌️ SwiftUI
 ## Authors
 
 his tutorial is based on the teachings from [Hacking with Swift](https://www.hackingwithswift.com/books/ios-swiftui/wesplit-introduction)

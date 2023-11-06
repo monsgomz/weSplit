@@ -15,7 +15,7 @@ WeSplit is a SwiftUI application that helps you quickly calculate the amount of 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](weSplit.png)
 
 
 ## Technologies

@@ -47,7 +47,7 @@ struct ContentView: View {
 					.pickerStyle(.segmented)
 				}
 				
-				Section { //mostrar la cantidad
+				Section("Amount per person") { //mostrar la cantidad
 					Text(totalPerPerson, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
 					
 					Picker("Number of people", selection: $numberOfPeople){
@@ -56,6 +56,17 @@ struct ContentView: View {
 						}
 					}
 					.pickerStyle(.automatic)
+				}
+				
+				Section(){
+					var total = totalPerPerson + checkAmount
+					HStack{
+						Text("Total:")
+							.font(.title2)
+						Text(total, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+							.font(.title3)
+					}
+					
 				}
 				
 			}
